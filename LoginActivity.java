@@ -52,6 +52,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnLayoutCha
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //状态栏透明
+        //测试一下SourceTree
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             StatusBarUtils.transparencyBar(this);
             StatusBarUtils.StatusBarLightMode(this);
