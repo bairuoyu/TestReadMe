@@ -55,6 +55,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnLayoutCha
         //测试一下SourceTree
         //本地仓库测试一下sourceTree
         //develop branch add a line
+        //master add a line for test
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             StatusBarUtils.transparencyBar(this);
             StatusBarUtils.StatusBarLightMode(this);
